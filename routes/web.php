@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::group(['middleware' => ['auth']], function () {
     Route::get('home', function () {
         return view('home');
-    });
+    })->name('home');
 });
 Route::get('clearcache', function () {
     Artisan::call('cache:clear');
