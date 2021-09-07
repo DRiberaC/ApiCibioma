@@ -17,7 +17,7 @@ class Germoteca extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 3,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-GE- 0003",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-GE-0003",
             "colector"=> "Scharlem Hurtado Q.",
             "fecha_de_coleccion"=> "21/04/2007",
             "reino"=> "Plantae",
@@ -45,7 +45,7 @@ class Germoteca extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 3,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-GE- 0008",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-GE-0008",
             "colector"=> "Samuel Molina",
             "fecha_de_coleccion"=> "05/06/2007",
             "reino"=> "Plantae",
@@ -73,7 +73,7 @@ class Germoteca extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 3,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-GE- 0089",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-GE-0089",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",

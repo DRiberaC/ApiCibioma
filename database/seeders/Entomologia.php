@@ -17,7 +17,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0001",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0001",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "1/4/14",
                 "reino"=> "ANIMALIA",
@@ -44,7 +44,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0002",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0002",
                 "fecha_de_coleccion"=> "6/25/14",
                 "reino"=> "ANIMALIA",
                 "phylum_division"=> "ARTHROPODA",
@@ -74,7 +74,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0003",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0003",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "9/29/14",
                 "reino"=> "ANIMALIA",
@@ -99,7 +99,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0004",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0004",
                 "colector"=> "xx",
                 "fecha_de_coleccion"=> "5/20/14",
                 "reino"=> "ANIMALIA",
@@ -126,7 +126,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0005",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0005",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "1/1/14",
                 "reino"=> "ANIMALIA",
@@ -148,7 +148,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0006",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0006",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "4/4/14",
                 "reino"=> "ANIMALIA",
@@ -174,7 +174,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0007",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0007",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "6/5/14",
                 "reino"=> "ANIMALIA",
@@ -201,7 +201,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0008",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0008",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "1/1/14",
                 "reino"=> "ANIMALIA",
@@ -225,7 +225,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0009",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0009",
                 "colector"=> "Valdivia, C.",
                 "fecha_de_coleccion"=> "5/16/14",
                 "reino"=> "ANIMALIA",
@@ -248,7 +248,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0010",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0010",
                 "colector"=> "Feldmann, N.",
                 "fecha_de_coleccion"=> "6/10/14",
                 "reino"=> "ANIMALIA",
@@ -276,7 +276,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0011",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0011",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "2/12/14",
                 "reino"=> "ANIMALIA",
@@ -303,7 +303,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0012",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0012",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "6/20/14",
                 "reino"=> "ANIMALIA",
@@ -332,7 +332,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0013",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0013",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "3/25/14",
                 "reino"=> "ANIMALIA",
@@ -359,7 +359,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0014",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0014",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "6/3/14",
                 "reino"=> "ANIMALIA",
@@ -386,7 +386,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0015",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0015",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "3/3/14",
                 "reino"=> "ANIMALIA",
@@ -410,7 +410,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0016",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0016",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "7/10/14",
                 "reino"=> "ANIMALIA",
@@ -436,7 +436,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0017",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0017",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "7/12/14",
                 "reino"=> "ANIMALIA",
@@ -464,7 +464,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0018",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0018",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "6/25/14",
                 "reino"=> "ANIMALIA",
@@ -490,7 +490,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0019",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0019",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "2/11/14",
                 "reino"=> "ANIMALIA",
@@ -518,7 +518,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0020",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0020",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "5/15/14",
                 "reino"=> "ANIMALIA",
@@ -546,7 +546,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0021",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0021",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "5/15/14",
                 "reino"=> "ANIMALIA",
@@ -577,7 +577,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0022",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0022",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "4/12/14",
                 "reino"=> "ANIMALIA",
@@ -604,7 +604,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0023",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0023",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "3/26/14",
                 "reino"=> "ANIMALIA",
@@ -632,7 +632,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0024",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0024",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "7/13/14",
                 "reino"=> "ANIMALIA",
@@ -660,7 +660,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0025",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0025",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "7/2/14",
                 "reino"=> "ANIMALIA",
@@ -688,7 +688,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0026",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0026",
                 "colector"=> "Valdivia, C.",
                 "fecha_de_coleccion"=> "1/11/14",
                 "reino"=> "ANIMALIA",
@@ -716,7 +716,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0027",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0027",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "1/4/14",
                 "reino"=> "ANIMALIA",
@@ -743,7 +743,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0028",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0028",
                 "colector"=> "Díez, C.",
                 "fecha_de_coleccion"=> "6/4/14",
                 "reino"=> "ANIMALIA",
@@ -768,7 +768,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0029",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0029",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "3/25/14",
                 "reino"=> "ANIMALIA",
@@ -795,7 +795,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0030",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0030",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "2/28/14",
                 "reino"=> "ANIMALIA",
@@ -818,7 +818,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0031",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0031",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "4/16/14",
                 "reino"=> "ANIMALIA",
@@ -841,7 +841,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0032",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0032",
                 "colector"=> "Terrazas, R.",
                 "fecha_de_coleccion"=> "6/25/14",
                 "reino"=> "ANIMALIA",
@@ -862,7 +862,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0033",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0033",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "7/5/14",
                 "reino"=> "ANIMALIA",
@@ -886,7 +886,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0034",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0034",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "8/29/14",
                 "reino"=> "ANIMALIA",
@@ -910,7 +910,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0035",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0035",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "7/5/14",
                 "reino"=> "ANIMALIA",
@@ -931,7 +931,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0036",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0036",
                 "colector"=> "González, Dani",
                 "fecha_de_coleccion"=> "1/11/14",
                 "reino"=> "ANIMALIA",
@@ -954,7 +954,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0037",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0037",
                 "colector"=> "Vargas, x",
                 "fecha_de_coleccion"=> "7/21/14",
                 "reino"=> "ANIMALIA",
@@ -975,7 +975,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0038",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0038",
                 "colector"=> "Vargas, x",
                 "fecha_de_coleccion"=> "7/22/14",
                 "reino"=> "ANIMALIA",
@@ -999,7 +999,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0039",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0039",
                 "colector"=> "Vargas, x",
                 "fecha_de_coleccion"=> "7/22/14",
                 "reino"=> "ANIMALIA",
@@ -1023,7 +1023,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0040",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0040",
                 "colector"=> "Vargas, x",
                 "fecha_de_coleccion"=> "7/22/14",
                 "reino"=> "ANIMALIA",
@@ -1047,7 +1047,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0041",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0041",
                 "colector"=> "Ten, Silvia",
                 "fecha_de_coleccion"=> "6/11/14",
                 "reino"=> "ANIMALIA",
@@ -1071,7 +1071,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0042",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0042",
                 "colector"=> "Vargas, x",
                 "fecha_de_coleccion"=> "7/22/14",
                 "reino"=> "ANIMALIA",
@@ -1095,7 +1095,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0043",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0043",
                 "colector"=> "Vargas, x",
                 "fecha_de_coleccion"=> "7/22/14",
                 "reino"=> "ANIMALIA",
@@ -1119,7 +1119,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0044",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0044",
                 "colector"=> "Vargas, x",
                 "fecha_de_coleccion"=> "7/22/14",
                 "reino"=> "ANIMALIA",
@@ -1142,14 +1142,14 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0045",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0045",
                 "nombre_completo"=> "Rothschildia aurota"
             ]
         );
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0046",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0046",
                 "pais"=> "BOLIVIA",
                 "identificado"=> "Ten, S.",
                 "tipo_registro"=> "PreservedSpecimen ",
@@ -1159,7 +1159,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0047",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0047",
                 "pais"=> "BOLIVIA",
                 "identificado"=> "Ten, S.",
                 "edad"=> "Adulto"
@@ -1168,7 +1168,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0048",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0048",
                 "pais"=> "BOLIVIA",
                 "identificado"=> "Ten, S.",
                 "edad"=> "Adulto"
@@ -1177,7 +1177,7 @@ class Entomologia extends Seeder
         Muestra::create(
             [
                 "tipo_id"=> 2,
-                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE- 0049",
+                "codigo_y_n_de_coleccion"=> "CB-UAB-ZE-0049",
                 "pais"=> "BOLIVIA",
                 "identificado"=> "Ten, S.",
                 "edad"=> "Adulto"

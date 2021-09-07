@@ -16,7 +16,7 @@ class Herbario extends Seeder
     {
         Muestra::create([
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0003",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0003",
             "colector"=> "Scharlem Hurtado Q.",
             "fecha_de_coleccion"=> "21/04/2007",
             "reino"=> "Plantae",
@@ -45,7 +45,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0008",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0008",
             "colector"=> "Samuel Molina",
             "fecha_de_coleccion"=> "05/06/2007",
             "reino"=> "Plantae",
@@ -75,7 +75,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0089",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0089",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -104,7 +104,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0063",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0063",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "03/06/2010",
             "reino"=> "Plantae",
@@ -134,7 +134,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0058",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0058",
             "colector"=> "Ynes V. Terán S.",
             "fecha_de_coleccion"=> "03/04/2010",
             "reino"=> "Plantae",
@@ -164,7 +164,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0015",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0015",
             "colector"=> "Rolfi Hurtado H.",
             "fecha_de_coleccion"=> "04/07/2007",
             "reino"=> "Plantae",
@@ -194,7 +194,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0066",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0066",
             "colector"=> "Elio Coaquira",
             "fecha_de_coleccion"=> "05/07/2010",
             "reino"=> "Plantae",
@@ -224,7 +224,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0075",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0075",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "18/07/2010",
             "reino"=> "Plantae",
@@ -254,7 +254,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0009",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0009",
             "colector"=> "Samuel Molina",
             "fecha_de_coleccion"=> "05/06/2007",
             "reino"=> "Plantae",
@@ -283,7 +283,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0050",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0050",
             "colector"=> "Indira E. Velarde Ch.",
             "fecha_de_coleccion"=> "01/07/2009",
             "reino"=> "Plantae",
@@ -313,7 +313,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0129",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0129",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -334,7 +334,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0130",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0130",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -355,7 +355,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0099",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0099",
             "colector"=> "M. Claudio Rivera Ch.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -383,7 +383,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0131",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0131",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -404,7 +404,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0024",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0024",
             "colector"=> "Conrado Vasquez L.",
             "fecha_de_coleccion"=> "13/11/2008",
             "reino"=> "Plantae",
@@ -434,7 +434,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0031",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0031",
             "colector"=> "Angel Rivero y Wagner Ortiz",
             "fecha_de_coleccion"=> "21/05/2009",
             "reino"=> "Plantae",
@@ -463,7 +463,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0032",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0032",
             "colector"=> "Sandra Gomez y Ariel Vargas",
             "fecha_de_coleccion"=> "21/05/2009",
             "reino"=> "Plantae",
@@ -493,7 +493,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0033",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0033",
             "colector"=> "Sandra Gomez y Ariel Vargas",
             "fecha_de_coleccion"=> "21/05/2009",
             "reino"=> "Plantae",
@@ -523,7 +523,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0020",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0020",
             "colector"=> "Neil Loayza C.",
             "fecha_de_coleccion"=> "07/10/2007",
             "reino"=> "Plantae",
@@ -553,7 +553,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0076",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0076",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "18/07/2010",
             "reino"=> "Plantae",
@@ -583,7 +583,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0100",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0100",
             "colector"=> "Daniet Justiniano V.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -612,7 +612,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0090",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0090",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -641,7 +641,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0025",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0025",
             "colector"=> "Lucio G. Carita M.",
             "fecha_de_coleccion"=> "13/11/2008",
             "reino"=> "Plantae",
@@ -671,7 +671,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0059",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0059",
             "colector"=> "Ynes V. Terán S.",
             "fecha_de_coleccion"=> "03/04/2010",
             "reino"=> "Plantae",
@@ -695,7 +695,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0080",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0080",
             "colector"=> "Raul Humaza M.",
             "fecha_de_coleccion"=> "15/11/2010",
             "reino"=> "Plantae",
@@ -719,7 +719,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0029",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0029",
             "colector"=> "Veronica G. Apuri A.",
             "fecha_de_coleccion"=> "25/11/2008",
             "reino"=> "Plantae",
@@ -749,7 +749,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0067",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0067",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -773,7 +773,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0132",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0132",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -794,7 +794,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0002",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0002",
             "colector"=> "Alejandro Murakani V.",
             "fecha_de_coleccion"=> "12/04/2003",
             "reino"=> "Plantae",
@@ -824,7 +824,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0133",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0133",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -845,7 +845,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0134",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0134",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -866,7 +866,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0135",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0135",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -887,7 +887,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0101",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0101",
             "colector"=> "G. Parraga",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -916,7 +916,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0048",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0048",
             "fecha_de_coleccion"=> "17/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -945,7 +945,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0005",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0005",
             "colector"=> "Ramiro Ruiz",
             "fecha_de_coleccion"=> "29/05/2007",
             "reino"=> "Plantae",
@@ -975,7 +975,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0136",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0136",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -996,7 +996,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0137",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0137",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -1017,7 +1017,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0060",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0060",
             "colector"=> "Ynes V. Terán S.",
             "fecha_de_coleccion"=> "03/04/2010",
             "reino"=> "Plantae",
@@ -1041,7 +1041,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0010",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0010",
             "colector"=> "Rolfi Hurtado H.",
             "fecha_de_coleccion"=> "05/06/2007",
             "reino"=> "Plantae",
@@ -1071,7 +1071,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0091",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0091",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1100,7 +1100,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0054",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0054",
             "colector"=> "Raúl Humaza M.",
             "fecha_de_coleccion"=> "15/11/2009",
             "reino"=> "Plantae",
@@ -1130,7 +1130,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0092",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0092",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1158,7 +1158,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0001",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0001",
             "colector"=> "Ingrid Zabala",
             "fecha_de_coleccion"=> "_ _/_ _ /2002",
             "reino"=> "Plantae",
@@ -1187,7 +1187,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0016",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0016",
             "colector"=> "Rolfi Hurtado H.",
             "fecha_de_coleccion"=> "04/07/2007",
             "reino"=> "Plantae",
@@ -1217,7 +1217,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0021",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0021",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "10/05/2008",
             "reino"=> "Plantae",
@@ -1247,7 +1247,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0138",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0138",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -1268,7 +1268,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0068",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0068",
             "colector"=> "Roger Puri M.",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -1298,7 +1298,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0081",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0081",
             "colector"=> "Raul Humaza M.",
             "fecha_de_coleccion"=> "15/11/2010",
             "reino"=> "Plantae",
@@ -1328,7 +1328,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0082",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0082",
             "colector"=> "Raul Humaza M.",
             "fecha_de_coleccion"=> "15/11/2010",
             "reino"=> "Plantae",
@@ -1358,7 +1358,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0064",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0064",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "03/06/2010",
             "reino"=> "Plantae",
@@ -1388,7 +1388,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0065",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0065",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "03/06/2010",
             "reino"=> "Plantae",
@@ -1418,7 +1418,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0069",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0069",
             "colector"=> "Paola Rivas",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -1448,7 +1448,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0087",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0087",
             "colector"=> "Luis E. Galarza C.",
             "fecha_de_coleccion"=> "25/11/2010",
             "reino"=> "Plantae",
@@ -1478,7 +1478,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0026",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0026",
             "colector"=> "Niser Felipe",
             "fecha_de_coleccion"=> "13/11/2008",
             "reino"=> "Plantae",
@@ -1508,7 +1508,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0139",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0139",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -1529,7 +1529,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0140",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0140",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -1550,7 +1550,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0102",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0102",
             "colector"=> "Limber M.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1579,7 +1579,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0088",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0088",
             "colector"=> "Elio Coaquira",
             "fecha_de_coleccion"=> "10/12/2010",
             "reino"=> "Plantae",
@@ -1609,7 +1609,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0093",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0093",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1638,7 +1638,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0039",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0039",
             "fecha_de_coleccion"=> "11/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1667,7 +1667,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0051",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0051",
             "colector"=> "B. Mariana Villavicencio R.",
             "fecha_de_coleccion"=> "01/07/2009",
             "reino"=> "Plantae",
@@ -1696,7 +1696,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0141",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0141",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -1717,7 +1717,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0098",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0098",
             "colector"=> "Ruth V. Mamani V.",
             "fecha_de_coleccion"=> "09/12/2015",
             "reino"=> "Plantae",
@@ -1747,7 +1747,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0142",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0142",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -1768,7 +1768,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0040",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0040",
             "fecha_de_coleccion"=> "11/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1796,7 +1796,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0056",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0056",
             "colector"=> "Freddy Flores V.",
             "fecha_de_coleccion"=> "25/11/2009",
             "reino"=> "Plantae",
@@ -1826,7 +1826,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0038",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0038",
             "fecha_de_coleccion"=> "09/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1855,7 +1855,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0143",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0143",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -1875,7 +1875,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0061",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0061",
             "colector"=> "Ynes V. Terán S.",
             "fecha_de_coleccion"=> "03/04/2010",
             "reino"=> "Plantae",
@@ -1899,7 +1899,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0070",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0070",
             "colector"=> "Paola Rivas",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -1929,7 +1929,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0071",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0071",
             "colector"=> "Paola Rivas",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -1959,7 +1959,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0103",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0103",
             "colector"=> "Maria L. Semo S.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -1981,7 +1981,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0096",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0096",
             "colector"=> "Conrado Vasquez",
             "fecha_de_coleccion"=> "24/10/2013",
             "reino"=> "Plantae",
@@ -2011,7 +2011,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0055",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0055",
             "colector"=> "Freddy Flores V.",
             "fecha_de_coleccion"=> "15/11/2009",
             "reino"=> "Plantae",
@@ -2041,7 +2041,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0011",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0011",
             "colector"=> "Samuel Molina",
             "fecha_de_coleccion"=> "05/06/2007",
             "reino"=> "Plantae",
@@ -2071,7 +2071,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0083",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0083",
             "colector"=> "Raúl Humaza M.",
             "fecha_de_coleccion"=> "15/11/2010",
             "reino"=> "Plantae",
@@ -2101,7 +2101,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0042",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0042",
             "fecha_de_coleccion"=> "14/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2130,7 +2130,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0036",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0036",
             "colector"=> "Sandra Gomez y Ariel Vargas",
             "fecha_de_coleccion"=> "02/06/2009",
             "reino"=> "Plantae",
@@ -2160,7 +2160,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0034",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0034",
             "colector"=> "Sandra Gomez y Ariel Vargas",
             "fecha_de_coleccion"=> "21/05/2009",
             "reino"=> "Plantae",
@@ -2190,7 +2190,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0062",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0062",
             "colector"=> "Ynes V. Terán S.",
             "fecha_de_coleccion"=> "03/04/2010",
             "reino"=> "Plantae",
@@ -2214,7 +2214,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0144",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0144",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Liliopsida",
@@ -2235,7 +2235,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0104",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0104",
             "colector"=> "Victor Hugo Aguilar",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2264,7 +2264,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0105",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0105",
             "colector"=> "Jimena Kiriaco R.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2293,7 +2293,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0012",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0012",
             "colector"=> "Samuel Molina",
             "fecha_de_coleccion"=> "05/06/2007",
             "reino"=> "Plantae",
@@ -2323,7 +2323,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0004",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0004",
             "colector"=> "Scharlem Hurtado Q.",
             "fecha_de_coleccion"=> "21/04/2007",
             "reino"=> "Plantae",
@@ -2353,7 +2353,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0106",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0106",
             "colector"=> "Victor Hugo Aguilar",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2382,7 +2382,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0107",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0107",
             "colector"=> "Victor Hugo Aguilar",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2406,7 +2406,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0145",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0145",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Liliopsida",
@@ -2427,7 +2427,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0086",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0086",
             "colector"=> "Luis E. Galarza C.",
             "fecha_de_coleccion"=> "16/11/2010",
             "reino"=> "Plantae",
@@ -2457,7 +2457,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0108",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0108",
             "colector"=> "Daniet Justiniano V.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2486,7 +2486,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0109",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0109",
             "colector"=> "Victor Hugo Aguilar",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2515,7 +2515,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0110",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0110",
             "colector"=> "Pamela Parada C.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2544,7 +2544,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0072",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0072",
             "colector"=> "Paola Rivas",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -2574,7 +2574,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0084",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0084",
             "colector"=> "Raúl Humaza M.",
             "fecha_de_coleccion"=> "15/11/2010",
             "reino"=> "Plantae",
@@ -2604,7 +2604,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0111",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0111",
             "colector"=> "Veronica G. Apuri A.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2626,7 +2626,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0073",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0073",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -2656,7 +2656,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0146",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0146",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Liliopsida",
@@ -2677,7 +2677,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0112",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0112",
             "colector"=> "K. Macabapi",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2706,7 +2706,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0113",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0113",
             "colector"=> "Milor C. Rivera y Dani Quispe V.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2735,7 +2735,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0027",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0027",
             "colector"=> "Lucio G. Carita M.",
             "fecha_de_coleccion"=> "13/11/2008",
             "reino"=> "Plantae",
@@ -2765,7 +2765,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0114",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0114",
             "colector"=> "Milor C. Rivera y Dani Quispe V.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2794,7 +2794,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0017",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0017",
             "colector"=> "Rolfi Hurtado H.",
             "fecha_de_coleccion"=> "04/07/2007",
             "reino"=> "Plantae",
@@ -2824,7 +2824,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0007",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0007",
             "colector"=> "Scharlem Hurtado Q.",
             "fecha_de_coleccion"=> "04/06/2007",
             "reino"=> "Plantae",
@@ -2854,7 +2854,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0147",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0147",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -2875,7 +2875,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0115",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0115",
             "colector"=> "V. Mazueto",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2904,7 +2904,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0148",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0148",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Liliopsida",
@@ -2925,7 +2925,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0116",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0116",
             "colector"=> "Y. Rada",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -2953,7 +2953,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0052",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0052",
             "colector"=> "B. Mariana Villavicencio R.",
             "fecha_de_coleccion"=> "01/07/2009",
             "reino"=> "Plantae",
@@ -2983,7 +2983,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0117",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0117",
             "colector"=> "Roger Puri M.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3012,7 +3012,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0023",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0023",
             "colector"=> "Juan Manuel Moye M.",
             "fecha_de_coleccion"=> "11/10/2008",
             "reino"=> "Plantae",
@@ -3042,7 +3042,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0013",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0013",
             "colector"=> "Luis Ernesto Arteaga M.",
             "fecha_de_coleccion"=> "20/06/2007",
             "reino"=> "Plantae",
@@ -3072,7 +3072,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0094",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0094",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3101,7 +3101,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0049",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0049",
             "fecha_de_coleccion"=> "17/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3130,7 +3130,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0043",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0043",
             "fecha_de_coleccion"=> "14/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3159,7 +3159,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0045",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0045",
             "fecha_de_coleccion"=> "15/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3188,7 +3188,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0030",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0030",
             "colector"=> "Veronica G. Apuri A.",
             "fecha_de_coleccion"=> "01/12/2008",
             "reino"=> "Plantae",
@@ -3218,7 +3218,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0057",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0057",
             "colector"=> "Geremias Ibañez F.",
             "fecha_de_coleccion"=> "25/11/2009",
             "reino"=> "Plantae",
@@ -3247,7 +3247,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0022",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0022",
             "colector"=> "Vanessa del Rosario Solares R.",
             "fecha_de_coleccion"=> "28/07/2008",
             "reino"=> "Plantae",
@@ -3277,7 +3277,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0149",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0149",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -3298,7 +3298,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0095",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0095",
             "fecha_de_coleccion"=> "10/11/2011",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3326,7 +3326,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0118",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0118",
             "colector"=> "P. Pueta",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3355,7 +3355,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0150",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0150",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Liliopsida",
@@ -3376,7 +3376,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0119",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0119",
             "colector"=> "Milor C. Rivera y Dani Quispe V.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3405,7 +3405,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0041",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0041",
             "fecha_de_coleccion"=> "11/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3434,7 +3434,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0120",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0120",
             "colector"=> "R. Temo",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3463,7 +3463,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0121",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0121",
             "colector"=> "Limber M.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3492,7 +3492,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0122",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0122",
             "colector"=> "J. Cuellar",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3520,7 +3520,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0053",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0053",
             "colector"=> "B. Mariana Villavicencio R.",
             "fecha_de_coleccion"=> "01/07/2009",
             "reino"=> "Plantae",
@@ -3550,7 +3550,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0151",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0151",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -3571,7 +3571,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0123",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0123",
             "colector"=> "Conrado Vasquez",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3600,7 +3600,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0124",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0124",
             "colector"=> "Javier Vaca M.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3629,7 +3629,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0046",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0046",
             "fecha_de_coleccion"=> "15/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3658,7 +3658,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0047",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0047",
             "fecha_de_coleccion"=> "15/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3687,7 +3687,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0125",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0125",
             "colector"=> "Silvia Mirabal C.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3709,7 +3709,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0126",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0126",
             "colector"=> "Milor C. Rivera y Dani Quispe V.",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3737,7 +3737,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0152",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0152",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -3758,7 +3758,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0028",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0028",
             "colector"=> "Diego A. Salas A.",
             "fecha_de_coleccion"=> "13/11/2008",
             "reino"=> "Plantae",
@@ -3788,7 +3788,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0153",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0153",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -3808,7 +3808,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0019",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0019",
             "colector"=> "José A. Terrazas",
             "fecha_de_coleccion"=> "10/08/2007",
             "reino"=> "Plantae",
@@ -3838,7 +3838,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0154",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0154",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -3861,7 +3861,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0127",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0127",
             "colector"=> "C. E. Flores",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -3890,7 +3890,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0014",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0014",
             "colector"=> "Scharlem Hurtado Q.",
             "fecha_de_coleccion"=> "30/06/2007",
             "reino"=> "Plantae",
@@ -3920,7 +3920,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0006",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0006",
             "colector"=> "Scharlem Hurtado Q.",
             "fecha_de_coleccion"=> "02/06/2007",
             "reino"=> "Plantae",
@@ -3950,7 +3950,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0085",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0085",
             "colector"=> "Raúl Humaza M.",
             "fecha_de_coleccion"=> "15/11/2010",
             "reino"=> "Plantae",
@@ -3980,7 +3980,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0155",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0155",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -4001,7 +4001,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0035",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0035",
             "colector"=> "Angel Rivero y Wagner Ortiz",
             "fecha_de_coleccion"=> "21/05/2009",
             "reino"=> "Plantae",
@@ -4031,7 +4031,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0044",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0044",
             "fecha_de_coleccion"=> "14/06/2009",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -4060,7 +4060,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0037",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0037",
             "colector"=> "Angel Rivero y Wagner Ortiz",
             "fecha_de_coleccion"=> "02/06/2009",
             "reino"=> "Plantae",
@@ -4090,7 +4090,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0128",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0128",
             "colector"=> "Ricardo Temo",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -4112,7 +4112,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0079",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0079",
             "fecha_de_coleccion"=> "19/07/2010",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
@@ -4141,7 +4141,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0074",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0074",
             "colector"=> "Roger Puri M.",
             "fecha_de_coleccion"=> "10/07/2010",
             "reino"=> "Plantae",
@@ -4171,7 +4171,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0077",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0077",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "18/07/2010",
             "reino"=> "Plantae",
@@ -4201,7 +4201,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0097",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0097",
             "colector"=> "Ruth V. Mamani V.",
             "fecha_de_coleccion"=> "08/12/2015",
             "reino"=> "Plantae",
@@ -4231,7 +4231,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0078",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0078",
             "colector"=> "Nazaret Coimbra S.",
             "fecha_de_coleccion"=> "18/07/2010",
             "reino"=> "Plantae",
@@ -4256,7 +4256,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0018",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0018",
             "colector"=> "Rolfi Hurtado H.",
             "fecha_de_coleccion"=> "04/07/2007",
             "reino"=> "Plantae",
@@ -4286,7 +4286,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0156",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0156",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Magnoliopsida",
@@ -4306,7 +4306,7 @@ class Herbario extends Seeder
         Muestra::create(
             [
             "tipo_id"=> 4,
-            "codigo_y_n_de_coleccion"=> "CB-UAB-HB- 0157",
+            "codigo_y_n_de_coleccion"=> "CB-UAB-HB-0157",
             "reino"=> "Plantae",
             "phylum_division"=> "Magnoliophyta",
             "clase"=> "Liliopsida",
