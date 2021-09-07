@@ -9,4 +9,8 @@ class Tipo extends Model
 {
     use HasFactory;
     //protected $fillable = ['nombre'];
+    public function muestras()
+    {
+        return $this->hasMany(Muestra::class);
+    }
 }

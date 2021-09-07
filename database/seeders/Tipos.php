@@ -14,11 +14,11 @@ class Tipos extends Seeder
      */
     public function run()
     {
-        Tipo::create(['nombre' => 'carpoteca']);
-        Tipo::create(['nombre' => 'entomologia']);
-        Tipo::create(['nombre' => 'germoteca']);
-        Tipo::create(['nombre' => 'herbario']);
-        Tipo::create(['nombre' => 'palinoteca']);
-        Tipo::create(['nombre' => 'xiloteca']);
+        Tipo::create(['nombre' => 'Carpoteca']);
+        Tipo::create(['nombre' => 'Entomología']);
+        Tipo::create(['nombre' => 'Germoteca']);
+        Tipo::create(['nombre' => 'Herbario']);
+        Tipo::create(['nombre' => 'Palinoteca']);
+        Tipo::create(['nombre' => 'Xiloteca']);
     }
 }

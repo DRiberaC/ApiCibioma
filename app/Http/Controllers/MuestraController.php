@@ -4,82 +4,20 @@ namespace App\Http\Controllers;
 
 use App\Models\Muestra;
 use Illuminate\Http\Request;
+use App\Http\Resources\MuestraResource;
 
 class MuestraController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        //
+        $datos = Muestra::all();
+        return $datos;
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function show($muestra)
     {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Muestra  $muestra
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Muestra $muestra)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Muestra  $muestra
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Muestra $muestra)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Muestra  $muestra
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Muestra $muestra)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Muestra  $muestra
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Muestra $muestra)
-    {
-        //
+        //$datos = Muestra::with(['tipo'])->where('codigo_y_n_de_coleccion', $muestra)->first();
+        $datos = Muestra::where('codigo_y_n_de_coleccion', $muestra)->first();
+        return new MuestraResource($datos);
     }
 }
