@@ -11,7 +11,7 @@ class MuestraController extends Controller
     public function index()
     {
         $datos = Muestra::all();
-        return $datos;
+        return new MuestraResource($datos);
     }
 
     public function show($muestra)
