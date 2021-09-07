@@ -16,7 +16,7 @@ class MuestraResource extends JsonResource
     {
         //return parent::toArray($request);
         return [
-            'coleccion'=>$this->tipo->nombre,
+            //'coleccion'=>$this->tipo->nombre,
             'codigo_y_n_de_coleccion'=>$this->codigo_y_n_de_coleccion,
             'colector'=>$this->colector,
             'procesado'=>$this->procesado,
