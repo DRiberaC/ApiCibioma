@@ -31,6 +31,7 @@ class CreateMuestrasTable extends Migration
             $table->string('familia')->nullable();
             $table->string('subfamilia')->nullable();
             $table->string('genero')->nullable();
+            $table->string('epiteto_especifico')->nullable();
             $table->string('especie')->nullable();
             $table->string('variedad')->nullable();
             $table->string('nombre_cientifico')->nullable();
@@ -42,6 +43,7 @@ class CreateMuestrasTable extends Migration
             $table->string('pais')->nullable();
             $table->string('latitud')->nullable();
             $table->string('longitud')->nullable();
+            $table->string('datum')->nullable();
             $table->string('altitud')->nullable();
             $table->string('geo_lat')->nullable();
             $table->string('geo_lon')->nullable();
