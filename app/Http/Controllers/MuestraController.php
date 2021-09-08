@@ -10,8 +10,8 @@ class MuestraController extends Controller
 {
     public function index()
     {
-        $datos = Muestra::all();
-        return response()->json(['data'=> $datos]);
+        $datos = Muestra::filter()->get();
+        return $datos;
     }
 
     public function show($muestra)
