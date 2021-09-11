@@ -116,6 +116,12 @@ class DatosController extends Controller
         }
     }
 
+    public function deleteImg(Request $request)
+    {
+        Image::find($request->id)->delete();
+        return redirect()->back();
+    }
+
     public function coleccion(Tipo $tipo)
     {
         $tipos=Tipo::all();

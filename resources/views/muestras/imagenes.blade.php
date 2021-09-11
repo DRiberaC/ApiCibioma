@@ -51,7 +51,15 @@
                     <p class="card-text"><strong>{{$imagen->nombre}}</strong></p>
                     <p class="card-text">{{$imagen->descripcion}}</p>
                 </div>
+                <div class="card-footer">
+                    <form action="{{ route('coleccion.imagen.delete') }}" method="POST">
+                        @csrf
+                        <input type="hidden" name="id" value="{{ $imagen->id }}">
+                        <button type="submit" class="btn btn-xs  btn-danger">Eliminar</button>
+                    </form>
+                </div>
             </div>
+            
         </div>
     @endforeach
 
