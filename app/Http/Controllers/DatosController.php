@@ -11,7 +11,10 @@ class DatosController extends Controller
     public function index()
     {
         $tipos=Tipo::all();
-        return view('home', compact('tipos'));
+        $muestras=Muestra::all();
+        //return $muestras;
+        //dd($muestras);
+        return view('home', compact('tipos', 'muestras'));
     }
 
     public function create(Tipo $tipo)
