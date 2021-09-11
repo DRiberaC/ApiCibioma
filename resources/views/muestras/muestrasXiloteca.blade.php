@@ -37,7 +37,7 @@
                                 <th>Reino</th>
                                 <th>Phylum/Division</th>
                                 <th>Clase</th>
-                                <th>Clase</th>
+                                <th>Orden</th>
                                 <th>Familia</th>
                                 <th>Subfamilia</th>
                                 <th>Género</th>
