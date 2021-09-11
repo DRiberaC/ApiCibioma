@@ -15,7 +15,8 @@ class Muestra extends Model
 
     public function getRouteKeyName()
     {
-        return 'codigo_y_n_de_coleccion';
+        //return 'codigo_y_n_de_coleccion';
+        return 'id';
     }
 
     public function tipo()

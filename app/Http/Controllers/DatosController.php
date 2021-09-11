@@ -40,7 +40,7 @@ class DatosController extends Controller
                 return view('muestras.create.createXiloteca', compact('tipos', 'tipo'));
                 break;
             default:
-                return view('home', compact('tipos'));
+                return redirect()->back();
                 break;
         }
         //return view('muestras.create', compact('tipos', 'tipo'));
@@ -51,6 +51,41 @@ class DatosController extends Controller
         //$values = array_except($request->all(), ['_token']);
         $muestra=Muestra::create($request->except('_token'));
         return redirect()->route('coleccion.tipo', [$muestra->tipo->slug]);
+    }
+
+    public function edit(Muestra $muestra)
+    {
+        //return $muestra;
+        $tipos=Tipo::all();
+        switch ($muestra->tipo->id) {
+            case 1:
+                return view('muestras.edit.editCarpoteca', compact('tipos', 'muestra'));
+                break;
+            case 2:
+                return view('muestras.edit.editEntomologia', compact('tipos', 'muestra'));
+                break;
+            case 3:
+                return view('muestras.edit.editGermoteca', compact('tipos', 'muestra'));
+                break;
+            case 4:
+                return view('muestras.edit.editHerbario', compact('tipos', 'muestra'));
+                break;
+            case 5:
+                return view('muestras.edit.editPalinoteca', compact('tipos', 'muestra'));
+                break;
+            case 6:
+                return view('muestras.edit.editXiloteca', compact('tipos', 'muestra'));
+                break;
+            default:
+                return redirect()->back();
+                break;
+        }
+    }
+
+    public function update(Request $request)
+    {
+        Muestra::where('id', $request->id)->update($request->except('_token', 'id'));
+        return redirect()->route('home.index');
     }
 
     public function coleccion(Tipo $tipo)
@@ -78,7 +113,7 @@ class DatosController extends Controller
                 return view('muestras.muestrasXiloteca', compact('tipos', 'tipo', 'muestras'));
                 break;
             default:
-                return view('home', compact('tipos'));
+                //return view('home', compact('tipos',''));
                 break;
         }
         //return view('muestras.muestras', compact('tipos', 'tipo', 'muestras'));

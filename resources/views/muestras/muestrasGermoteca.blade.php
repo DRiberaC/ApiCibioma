@@ -28,50 +28,51 @@
                         <tr>
                             {{-- <th>Name</th> --}}
 
-                            {{-- <td>Colección</td> --}}
-                            <td>Código y N° de colección</td>
-                            <td>Colector</td>
-                            {{-- <td>Procesado por</td> --}}
-                            {{-- <td>Muestra de respaldo</td> --}}
-                            <td>Fecha</td>
-                            <td>Reino</td>
-                            <td>Phylum/Division</td>
-                            <td>Clase</td>
-                            <td>Clase</td>
-                            <td>Familia</td>
-                            <td>Subfamilia</td>
-                            <td>Género</td>
-                            <td>Especie</td>
-                            <td>Variedad</td>
-                            {{-- <td>Epíteto específico</td> --}}
-                            <td>Nombre científico</td>
-                            <td>Nombre completo</td>
-                            <td>Nombre común</td>
-                            <td>Lugar colecta</td>
-                            <td>Provincia</td>
-                            <td>Departamento</td>
-                            <td>País</td>
-                            <td>Latitud</td>
-                            <td>Longitud</td>
-                            {{-- <td>Datum</td> --}}
-                            <td>Altitud</td>
-                            <td>geo_lat</td>
-                            <td>geo_lon</td>
-                            {{-- <td>Área protegida</td> --}}
-                            <td>Método colecta</td>
-                            <td>Identificado por</td>
-                            {{-- <td>Tipo de registro</td> --}}
-                            <td>Cantidad de ejemplares</td>
-                            <td>Localización</td>
-                            {{-- <td>Sexo</td> --}}
-                            {{-- <td>Edad</td> --}}
-                            <td>Notas</td>
-                            {{-- <td>Agrupación</td> --}}
-                            {{-- <td>Tamaño grano v.p. μ</td> --}}
-                            {{-- <td>Tamaño grano v.e. μ</td> --}}
-                            {{-- <td>Forma</td> --}}
-                            {{-- <td>Aperturas</td> --}}
-                            {{-- <td>Ornamentación</td> --}}
+                            {{-- <th>Colección</th> --}}
+                            <th>Código y N° de colección</th>
+                            <th>Colector</th>
+                            {{-- <th>Procesado por</th> --}}
+                            {{-- <th>Muestra de respaldo</th> --}}
+                            <th>Fecha</th>
+                            <th>Reino</th>
+                            <th>Phylum/Division</th>
+                            <th>Clase</th>
+                            <th>Clase</th>
+                            <th>Familia</th>
+                            <th>Subfamilia</th>
+                            <th>Género</th>
+                            <th>Especie</th>
+                            <th>Variedad</th>
+                            {{-- <th>Epíteto específico</th> --}}
+                            <th>Nombre científico</th>
+                            <th>Nombre completo</th>
+                            <th>Nombre común</th>
+                            <th>Lugar colecta</th>
+                            <th>Provincia</th>
+                            <th>Departamento</th>
+                            <th>País</th>
+                            <th>Latitud</th>
+                            <th>Longitud</th>
+                            {{-- <th>Datum</th> --}}
+                            <th>Altitud</th>
+                            <th>geo_lat</th>
+                            <th>geo_lon</th>
+                            {{-- <th>Área protegida</th> --}}
+                            <th>Método colecta</th>
+                            <th>Identificado por</th>
+                            {{-- <th>Tipo de registro</th> --}}
+                            <th>Cantidad de ejemplares</th>
+                            <th>Localización</th>
+                            {{-- <th>Sexo</th> --}}
+                            {{-- <th>Edad</th> --}}
+                            <th>Notas</th>
+                            {{-- <th>Agrupación</th> --}}
+                            {{-- <th>Tamaño grano v.p. μ</th> --}}
+                            {{-- <th>Tamaño grano v.e. μ</th> --}}
+                            {{-- <th>Forma</th> --}}
+                            {{-- <th>Aperturas</th> --}}
+                            {{-- <th>Ornamentación</th> --}}
+                            <th>Opciones</th>
 
                         </tr>
                     </thead>
@@ -124,6 +125,17 @@
                             {{-- <td>{{$muestra->tipo->forma}}</td> --}}
                             {{-- <td>{{$muestra->tipo->apertura}}</td> --}}
                             {{-- <td>{{$muestra->tipo->ornamentacion}}</td> --}}
+                            <td>
+
+                                <p class="mt-1">
+                                    <a href="{{route('coleccion.edit',[$muestra])}}"><button type="button" class="btn btn-xs btn-warning">Editar</button></a>
+                                </p>
+                                <p class="mt-1">
+                                    <button type="button" class="btn btn-xs btn-primary">Agregar Imagen</button>
+                                </p>
+
+                            </td>
+                            
                         </tr>
 
                         @endforeach
@@ -141,6 +153,7 @@
 @section('scripts')
     
     <!-- third party js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="{{ asset('shimba/assets/js/vendor/jquery.dataTables.js') }}"></script>
     <script src="{{ asset('shimba/assets/js/vendor/dataTables.bootstrap4.js') }}"></script>
     <script src="{{ asset('shimba/assets/js/vendor/dataTables.responsive.min.js') }}"></script>
@@ -158,7 +171,18 @@
         var table = $('#datatable-buttons').DataTable({
                 ordering: false,
                 lengthChange: false,
-                buttons: ['copy'],
+                /* buttons: ['copy'], */
+                buttons: [
+                    {
+                        extend: 'excel',
+                        text: 'Exportar a Excel',
+                        filename: '{{$tipo->nombre}}',
+                        className: 'btn btn-success',
+                        exportOptions: {
+                            columns: 'th:not(:last-child)'
+                        }
+                    }
+                ],
                 "language": {
                     "paginate": {
                         "previous": "<i class='mdi mdi-chevron-left'>",
