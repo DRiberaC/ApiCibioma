@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Tipo;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class Tipos extends Seeder
 {
@@ -14,11 +15,11 @@ class Tipos extends Seeder
      */
     public function run()
     {
-        Tipo::create(['nombre' => 'Carpoteca']);
-        Tipo::create(['nombre' => 'Entomología']);
-        Tipo::create(['nombre' => 'Germoteca']);
-        Tipo::create(['nombre' => 'Herbario']);
-        Tipo::create(['nombre' => 'Palinoteca']);
-        Tipo::create(['nombre' => 'Xiloteca']);
+        Tipo::create(['nombre' => 'Carpoteca','slug' => Str::slug('Carpoteca')]);
+        Tipo::create(['nombre' => 'Entomología','slug' => Str::slug('Entomología')]);
+        Tipo::create(['nombre' => 'Germoteca','slug' => Str::slug('Germoteca')]);
+        Tipo::create(['nombre' => 'Herbario','slug' => Str::slug('Herbario')]);
+        Tipo::create(['nombre' => 'Palinoteca','slug' => Str::slug('Palinoteca')]);
+        Tipo::create(['nombre' => 'Xiloteca','slug' => Str::slug('Xiloteca')]);
     }
 }

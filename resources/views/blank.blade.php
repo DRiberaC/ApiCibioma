@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Centro de Investigación en Biodiversidad y Medio Ambiente" />
     <meta name="author" content="CIBIOMA" />
-	<link rel="shortcut icon" href="{{ asset('shimba/assets/images/icon.png') }}">
+	{{-- <link rel="shortcut icon" href="{{ asset('shimba/assets/images/icon.png') }}"> --}}
 	<link href="{{ asset('shimba/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('shimba/assets/css/style.min.css') }}" rel="stylesheet" type="text/css" />
+	@yield('style')
 </head>
 
 <body>

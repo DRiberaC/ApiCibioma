@@ -13,4 +13,9 @@ class Tipo extends Model
     {
         return $this->hasMany(Muestra::class);
     }
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 }

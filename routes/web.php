@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DatosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::group(['middleware' => ['auth']], function () {
-    Route::get('home', function () {
-        return view('home');
-    })->name('home');
+    Route::get('home', [DatosController::class,"index"])->name('home.index');
+    Route::get('coleccion/{tipo}', [DatosController::class,"coleccion"])->name('coleccion.tipo');
 });
 Route::get('clearcache', function () {
     Artisan::call('cache:clear');
