@@ -104,7 +104,7 @@
     <script>
         var table = $('#datatable-buttons').DataTable({
                 lengthChange: false,
-                buttons: ['copy', 'print'],
+                buttons: ['copy'],
                 "language": {
                     "paginate": {
                         "previous": "<i class='mdi mdi-chevron-left'>",
