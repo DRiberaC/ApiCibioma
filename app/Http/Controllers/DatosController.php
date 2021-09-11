@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Image;
 use App\Models\Muestra;
 use App\Models\Tipo;
 use Illuminate\Http\Request;
@@ -86,6 +87,33 @@ class DatosController extends Controller
     {
         Muestra::where('id', $request->id)->update($request->except('_token', 'id'));
         return redirect()->route('home.index');
+    }
+
+    public function imagen(Muestra $muestra)
+    {
+        $tipos=Tipo::all();
+        return view('muestras.imagenes', compact('tipos', 'muestra'));
+    }
+
+    public function uploadImg(Request $request, Muestra $muestra)
+    {
+        //dd($request->all());
+        $request->validate([
+            'image' => 'required|image'
+        ]);
+        if ($file = $request->hasFile('image')) {
+            $file = $request->file('image') ;
+            $fileName = $file->getClientOriginalName() ;
+            $destinationPath = public_path().'/images' ;
+            $file->move($destinationPath, $fileName);
+
+            $muestra->images()->create([
+                'url' => $destinationPath,
+                'descripcion' => $request->descripcion,
+            ]);
+            
+            return redirect()->route('home.index');
+        }
     }
 
     public function coleccion(Tipo $tipo)

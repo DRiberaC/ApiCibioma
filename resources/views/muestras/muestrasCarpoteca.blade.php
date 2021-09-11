@@ -127,7 +127,7 @@
                                     <a href="{{route('coleccion.edit',[$muestra])}}"><button type="button" class="btn btn-xs btn-warning">Editar</button></a>
                                 </p>
                                 <p class="mt-1">
-                                    <button type="button" class="btn btn-xs btn-primary">Agregar Imagen</button>
+                                    <a href="{{route('coleccion.imagen',[$muestra])}}"><button type="button" class="btn btn-xs btn-primary">Ver Imagenes</button></a>
                                 </p>
 
                             </td>

@@ -23,6 +23,11 @@ class Muestra extends Model
     {
         return $this->belongsTo(Tipo::class);
     }
+
+    public function images()
+    {
+        return $this->morphMany(Image::class, 'imagetable');
+    }
     
     public function scopeFilter(Builder $query)
     {

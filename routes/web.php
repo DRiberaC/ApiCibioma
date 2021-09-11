@@ -24,6 +24,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('editar/{muestra}', [DatosController::class,"edit"])->name('coleccion.edit');
     Route::post('actualizar', [DatosController::class,"update"])->name('coleccion.update');
 
+    Route::get('coleccion/imagen/{muestra}', [DatosController::class,"imagen"])->name('coleccion.imagen');
+    Route::post('coleccion/imagen/upload/{muestra}', [DatosController::class,"uploadImg"])->name('coleccion.imagen.upload');
     Route::get('coleccion/{tipo}', [DatosController::class,"coleccion"])->name('coleccion.tipo');
 });
 Route::get('clearcache', function () {
