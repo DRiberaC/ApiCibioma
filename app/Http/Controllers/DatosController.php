@@ -6,6 +6,7 @@ use App\Models\Image;
 use App\Models\Muestra;
 use App\Models\Tipo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class DatosController extends Controller
 {
@@ -102,17 +103,16 @@ class DatosController extends Controller
             'image' => 'required|image'
         ]);
         if ($file = $request->hasFile('image')) {
-            $file = $request->file('image') ;
-            $fileName = $file->getClientOriginalName() ;
-            $destinationPath = public_path().'/images' ;
-            $file->move($destinationPath, $fileName);
+            $name = $request->file('image')->getClientOriginalName();
+            $path = $request->file('image')->store('public/images');
 
             $muestra->images()->create([
-                'url' => $destinationPath,
+                'url' => str_replace('public/', '', $path),
+                'nombre'=>$name,
                 'descripcion' => $request->descripcion,
             ]);
             
-            return redirect()->route('home.index');
+            return redirect()->back();
         }
     }
 

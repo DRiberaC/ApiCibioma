@@ -42,22 +42,19 @@
 </div>
 
 <div class="row">
-    <div class="col-md-6">
-        <div class="card mb-4">
-            <img class="card-img-top" src="{{ asset('shimba/assets/images/bg/bg-3.jpg') }}" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    @foreach ($muestra->images as $imagen)
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <img class="card-img-top" src="{{ asset('storage/'.$imagen->url) }}" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text"><strong>{{$imagen->nombre}}</strong></p>
+                    <p class="card-text">{{$imagen->descripcion}}</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-6">
-        <div class="card mb-4">
-            <img class="card-img-top" src="{{ asset('shimba/assets/images/bg/bg-3.jpg') }}" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-    </div>
+    @endforeach
+
 </div>
     
 @endsection
