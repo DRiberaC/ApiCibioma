@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label>Colección</label>
+                            @csrf
                             <input type="text" class="form-control" placeholder="Colección" name="tipo_id">
                         </div>
                         <div class="form-group">
