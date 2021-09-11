@@ -57,9 +57,9 @@
                             <th>Altitud</th>
                             <th>geo_lat</th>
                             <th>geo_lon</th>
-                            {{-- <th>Área protegida</th> --}}
-                            {{-- <th>Método colecta</th> --}}
-                            {{-- <th>Identificado por</th> --}}
+                            <th>Área protegida</th>
+                            <th>Método colecta</th>
+                            <th>Identificado por</th>
                             <th>Tipo de registro</th>
                             <th>Cantidad de ejemplares</th>
                             {{-- <th>Localización</th> --}}
@@ -110,9 +110,9 @@
                             <td>{{$muestra->altitud}}</td>
                             <td>{{$muestra->geo_lat}}</td>
                             <td>{{$muestra->geo_lon}}</td>
-                            {{-- <td>{{$muestra->area_protegida}}</td> --}}
-                            {{-- <td>{{$muestra->metodo_colecta}}</td> --}}
-                            {{-- <td>{{$muestra->identificado}}</td> --}}
+                            <td>{{$muestra->area_protegida}}</td>
+                            <td>{{$muestra->metodo_colecta}}</td>
+                            <td>{{$muestra->identificado}}</td>
                             <td>{{$muestra->tipo_registro}}</td>
                             <td>{{$muestra->cant_ejemplares}}</td>
                             {{-- <td>{{$muestra->localizacion}}</td> --}}
