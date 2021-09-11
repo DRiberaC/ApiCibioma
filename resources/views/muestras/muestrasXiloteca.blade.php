@@ -91,7 +91,7 @@
                                 <td>{{$muestra->clase}}</td>
                                 <td>{{$muestra->orden}}</td>
                                 <td>{{$muestra->familia}}</td>
-                                <td>{{$muestra->tipo->subfamilia}}</td>
+                                <td>{{$muestra->subfamilia}}</td>
                                 <td>{{$muestra->genero}}</td>
                                 <td>{{$muestra->especie}}</td>
                                 <td>{{$muestra->variedad}}</td>

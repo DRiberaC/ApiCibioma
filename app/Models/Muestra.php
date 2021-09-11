@@ -10,7 +10,7 @@ class Muestra extends Model
 {
     use HasFactory;
 
-    //protected $guarded = ['id'];
+    protected $guarded = ['id'];
     protected $allowFilter = ['tipo_id','codigo_y_n_de_coleccion'];
 
     public function getRouteKeyName()

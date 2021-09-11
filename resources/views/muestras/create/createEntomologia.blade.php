@@ -3,7 +3,7 @@
 
 <div class="row">
     <div class="col-12">
-        <form>
+        <form action="{{ route('coleccion.store') }}" method="POST">
 
         <div class="card">
             <div class="card-header">
@@ -14,7 +14,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             @csrf
-                            <input type="text" class="form-control" placeholder="Colección" name="tipo_id">
+                            <input type="text" class="form-control" placeholder="Colección" name="tipo_id" value="{{$tipo->id}}" hidden>
                         </div>
                         <div class="form-group">
                             <label>Código y N° de colección</label>

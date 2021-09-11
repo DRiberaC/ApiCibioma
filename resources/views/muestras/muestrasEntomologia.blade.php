@@ -103,7 +103,7 @@
                             <td>{{$muestra->provincia}}</td>
                             <td>{{$muestra->departamento}}</td>
                             <td>{{$muestra->pais}}</td>
-                            <td>{{$muestra->tipo->datum}}</td>
+                            <td>{{$muestra->datum}}</td>
                             <td>{{$muestra->latitud}}</td>
                             <td>{{$muestra->longitud}}</td>
                             <td>{{$muestra->altitud}}</td>
@@ -115,8 +115,8 @@
                             <td>{{$muestra->tipo_registro}}</td>
                             <td>{{$muestra->cant_ejemplares}}</td>
                             {{-- <td>{{$muestra->localizacion}}</td> --}}
-                            <td>{{$muestra->tipo->sexo}}</td>
-                            <td>{{$muestra->tipo->edad}}</td>
+                            <td>{{$muestra->sexo}}</td>
+                            <td>{{$muestra->edad}}</td>
                             <td>{{$muestra->notas}}</td>
                             {{-- <td>{{$muestra->tipo->agrupacion}}</td> --}}
                             {{-- <td>{{$muestra->tipo->tamanho_vp}}</td> --}}

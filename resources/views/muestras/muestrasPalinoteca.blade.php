@@ -51,7 +51,7 @@
                             <td>Provincia</td>
                             <td>Departamento</td>
                             <td>País</td>
-                            <td>Datum</td>
+                            {{-- <td>Datum</td> --}}
                             <td>Latitud</td>
                             <td>Longitud</td>
                             <td>Altitud</td>
@@ -103,7 +103,7 @@
                             <td>{{$muestra->provincia}}</td>
                             <td>{{$muestra->departamento}}</td>
                             <td>{{$muestra->pais}}</td>
-                            <td>{{$muestra->tipo->datum}}</td>
+                            {{-- <td>{{$muestra->tipo->datum}}</td> --}}
                             <td>{{$muestra->latitud}}</td>
                             <td>{{$muestra->longitud}}</td>
                             <td>{{$muestra->altitud}}</td>
@@ -118,12 +118,12 @@
                             {{-- <td>{{$muestra->tipo->sexo}}</td> --}}
                             {{-- <td>{{$muestra->tipo->edad}}</td> --}}
                             <td>{{$muestra->notas}}</td>
-                            <td>{{$muestra->tipo->agrupacion}}</td>
-                            <td>{{$muestra->tipo->tamanho_vp}}</td>
-                            <td>{{$muestra->tipo->tamanho_ve}}</td>
-                            <td>{{$muestra->tipo->forma}}</td>
-                            <td>{{$muestra->tipo->apertura}}</td>
-                            <td>{{$muestra->tipo->ornamentacion}}</td>
+                            <td>{{$muestra->agrupacion}}</td>
+                            <td>{{$muestra->tamanho_vp}}</td>
+                            <td>{{$muestra->tamanho_ve}}</td>
+                            <td>{{$muestra->forma}}</td>
+                            <td>{{$muestra->apertura}}</td>
+                            <td>{{$muestra->ornamentacion}}</td>
                         </tr>
 
                         @endforeach

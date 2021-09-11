@@ -41,9 +41,9 @@ class CreateMuestrasTable extends Migration
             $table->string('provincia')->default('');
             $table->string('departamento')->default('');
             $table->string('pais')->default('');
+            $table->string('datum')->default('');
             $table->string('latitud')->default('');
             $table->string('longitud')->default('');
-            $table->string('datum')->default('');
             $table->string('altitud')->default('');
             $table->string('geo_lat')->default('');
             $table->string('geo_lon')->default('');

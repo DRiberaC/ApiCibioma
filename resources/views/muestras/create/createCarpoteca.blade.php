@@ -3,7 +3,7 @@
 
 <div class="row">
     <div class="col-12">
-        <form>
+        <form action="{{ route('coleccion.store') }}" method="POST">
 
         <div class="card">
             <div class="card-header">

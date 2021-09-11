@@ -3,7 +3,7 @@
 
 <div class="row">
     <div class="col-12">
-        <form>
+        <form action="{{ route('coleccion.store') }}" method="POST">
 
         <div class="card">
             <div class="card-header">
@@ -14,24 +14,24 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             @csrf
-                            <input type="text" class="form-control" placeholder="Colección" name="tipo_id">
+                            <input type="text" class="form-control" placeholder="Colección" name="tipo_id" value="{{$tipo->id}}" hidden>
                         </div>
                         <div class="form-group">
                             <label>Código y N° de colección</label>
                             <input type="text" class="form-control" placeholder="Código y N° de colección" name="codigo_y_n_de_coleccion" required>
                         </div>
-                        {{-- <div class="form-group">
+                        <div class="form-group">
                             <label>Colector</label>
                             <input type="text" class="form-control" placeholder="Colector" name="colector">
-                        </div> --}}
+                        </div>
                         {{-- <div class="form-group">
                             <label>Procesado por</label>
                             <input type="text" class="form-control" placeholder="Procesado por" name="procesado">
                         </div> --}}
-                        <div class="form-group">
+                        {{-- <div class="form-group">
                             <label>Muestra de respaldo</label>
                             <input type="text" class="form-control" placeholder="Muestra de respaldo" name="muestra_respaldo">
-                        </div>
+                        </div> --}}
                         <div class="form-group">
                             <label>Fecha</label>
                             <input type="text" class="form-control" placeholder="Fecha" name="fecha_de_coleccion">

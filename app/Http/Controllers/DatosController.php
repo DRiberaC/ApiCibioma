@@ -45,7 +45,9 @@ class DatosController extends Controller
 
     public function store(Request $request)
     {
-        # code...
+        //$values = array_except($request->all(), ['_token']);
+        $muestra=Muestra::create($request->except('_token'));
+        return redirect()->route('coleccion.tipo', [$muestra->tipo->slug]);
     }
 
     public function coleccion(Tipo $tipo)
