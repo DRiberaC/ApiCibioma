@@ -13,7 +13,13 @@
 
 <div class="row">
     <div class="col-12">
-
+        
+        <div class="card">
+            <div class="card-body">
+                <a href="{{route('coleccion.create',[$tipo->slug])}}"><button type="button" class="btn btn-primary">Registrar nueva colección</button></a>
+            </div>
+        </div>
+        
         <div class="card">
             <div class="card-body">
                 <h4 class="header-title">Colección {{$tipo->nombre}}</h4>

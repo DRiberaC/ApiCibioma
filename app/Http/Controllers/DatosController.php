@@ -14,6 +14,40 @@ class DatosController extends Controller
         return view('home', compact('tipos'));
     }
 
+    public function create(Tipo $tipo)
+    {
+        $tipos=Tipo::all();
+        switch ($tipo->id) {
+            case 1:
+                return view('muestras.create.createCarpoteca', compact('tipos', 'tipo'));
+                break;
+            case 2:
+                return view('muestras.create.createEntomologia', compact('tipos', 'tipo'));
+                break;
+            case 3:
+                return view('muestras.create.createGermoteca', compact('tipos', 'tipo'));
+                break;
+            case 4:
+                return view('muestras.create.createHerbario', compact('tipos', 'tipo'));
+                break;
+            case 5:
+                return view('muestras.create.createPalinoteca', compact('tipos', 'tipo'));
+                break;
+            case 6:
+                return view('muestras.create.createXiloteca', compact('tipos', 'tipo'));
+                break;
+            default:
+                return view('home', compact('tipos'));
+                break;
+        }
+        //return view('muestras.create', compact('tipos', 'tipo'));
+    }
+
+    public function store(Request $request)
+    {
+        # code...
+    }
+
     public function coleccion(Tipo $tipo)
     {
         $tipos=Tipo::all();
@@ -43,10 +77,5 @@ class DatosController extends Controller
                 break;
         }
         //return view('muestras.muestras', compact('tipos', 'tipo', 'muestras'));
-    }
-
-    public function coleccion1()
-    {
-        return "col1";
     }
 }

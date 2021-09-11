@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 Route::group(['middleware' => ['auth']], function () {
     Route::get('home', [DatosController::class,"index"])->name('home.index');
+    Route::get('registrar/{tipo}', [DatosController::class,"create"])->name('coleccion.create');
     Route::get('coleccion/{tipo}', [DatosController::class,"coleccion"])->name('coleccion.tipo');
 });
 Route::get('clearcache', function () {
