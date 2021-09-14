@@ -60,7 +60,7 @@
                         </form>
                     </div>
                     <div class="float-right">
-                        <a href="{{route('coleccion.imagen.download',[$imagen])}}"><button type="button" class="btn btn-xs btn-primary">Ver Imagenes</button></a>
+                        <a href="{{route('coleccion.imagen.download',[$imagen])}}"><button type="button" class="btn btn-xs btn-primary">Descargar imagen</button></a>
                     </div>
                         
                         

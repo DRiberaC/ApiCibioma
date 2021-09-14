@@ -127,13 +127,13 @@ class DatosController extends Controller
         //$myFile = URL::to($libro->file->url);
         $myFile = storage_path("app/public/images/".basename($image->url));
 
-        dd($myFile, $image->url);
-        $headers = ['Content-Type: application/image'];
+        //dd($myFile, $image->url);
+        //$headers = ['Content-Type: application/image'];
         $newName = $image->nombre;
         if (!\File::exists($myFile)) {
             dd("Hubo un error al momento de la descarga.", $myFile);
         }
-        return response()->download($myFile, $newName, $headers);
+        return response()->download($myFile, $newName);
     }
 
     public function coleccion(Tipo $tipo)
