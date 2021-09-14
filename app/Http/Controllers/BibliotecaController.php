@@ -87,7 +87,7 @@ class BibliotecaController extends Controller
     public function downloadFile(Biblioteca $libro)
     {
         //$myFile = URL::to($libro->file->url);
-        $myFile = storage_path("app\\public\\files\\".basename($libro->file->url));
+        $myFile = storage_path("app/public/files/".basename($libro->file->url));
         $headers = ['Content-Type: application/pdf'];
         $newName = $libro->file->nombre;
         if (!\File::exists($myFile)) {
