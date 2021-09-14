@@ -126,6 +126,8 @@ class DatosController extends Controller
     {
         //$myFile = URL::to($libro->file->url);
         $myFile = storage_path("app/public/images/".basename($image->url));
+
+        dd($myFile);
         $headers = ['Content-Type: application/image'];
         $newName = $image->nombre;
         if (!\File::exists($myFile)) {
