@@ -91,7 +91,7 @@ class BibliotecaController extends Controller
         $headers = ['Content-Type: application/pdf'];
         $newName = $libro->file->nombre;
         if (!\File::exists($myFile)) {
-            dd("Hubo un error al momento de la descarga.");
+            dd("Hubo un error al momento de la descarga.", $myFile);
         }
         return response()->download($myFile, $newName, $headers);
     }
