@@ -126,7 +126,7 @@ class DatosController extends Controller
     {
         //$myFile = URL::to($libro->file->url);
         $myFile = storage_path("app/public/images/".basename($image->url));
-        $headers = ['Content-Type: application/pdf'];
+        $headers = ['Content-Type: application/image'];
         $newName = $image->nombre;
         if (!\File::exists($myFile)) {
             dd("Hubo un error al momento de la descarga.", $myFile);
