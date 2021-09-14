@@ -125,7 +125,7 @@ class DatosController extends Controller
     public function downloadImg(Image $image)
     {
         //$myFile = URL::to($libro->file->url);
-        $myFile = storage_path("app/public/files/".basename($image->url));
+        $myFile = storage_path("app/public/images/".basename($image->url));
         $headers = ['Content-Type: application/pdf'];
         $newName = $image->nombre;
         if (!\File::exists($myFile)) {
