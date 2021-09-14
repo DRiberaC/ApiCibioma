@@ -122,6 +122,18 @@ class DatosController extends Controller
         return redirect()->back();
     }
 
+    public function downloadImg(Image $image)
+    {
+        //$myFile = URL::to($libro->file->url);
+        $myFile = storage_path("app/public/files/".basename($image->url));
+        $headers = ['Content-Type: application/pdf'];
+        $newName = $image->nombre;
+        if (!\File::exists($myFile)) {
+            dd("Hubo un error al momento de la descarga.", $myFile);
+        }
+        return response()->download($myFile, $newName, $headers);
+    }
+
     public function coleccion(Tipo $tipo)
     {
         $tipos=Tipo::all();

@@ -52,11 +52,19 @@
                     <p class="card-text">{{$imagen->descripcion}}</p>
                 </div>
                 <div class="card-footer">
-                    <form action="{{ route('coleccion.imagen.delete') }}" method="POST">
+                    <div class="float-left">
+                        <form action="{{ route('coleccion.imagen.delete') }}" method="POST">
                         @csrf
                         <input type="hidden" name="id" value="{{ $imagen->id }}">
                         <button type="submit" class="btn btn-xs  btn-danger">Eliminar</button>
-                    </form>
+                        </form>
+                    </div>
+                    <div class="float-right">
+                        <a href="{{route('coleccion.imagen.download',[$imagen])}}"><button type="button" class="btn btn-xs btn-primary">Ver Imagenes</button></a>
+                    </div>
+                        
+                        
+                    </p>
                 </div>
             </div>
             

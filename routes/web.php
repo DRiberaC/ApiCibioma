@@ -52,3 +52,4 @@ Route::get('clearcache', function () {
 });
 
 Route::get('donwload/file/{libro}', [BibliotecaController::class,"downloadFile"])->name('biblioteca.file.download');
+Route::get('donwload/image/{muestra}', [DatosController::class,"downloadImg"])->name('coleccion.imagen.download');
