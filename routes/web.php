@@ -34,7 +34,6 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('biblioteca/imagen/upload/{libro}', [BibliotecaController::class,"uploadImg"])->name('biblioteca.imagen.upload');
     Route::post('biblioteca/file/upload/{libro}', [BibliotecaController::class,"uoloadFile"])->name('biblioteca.file.upload');
     Route::post('coleccion/file/delete', [BibliotecaController::class,"deleteFile"])->name('biblioteca.file.delete');
-    Route::get('donwload/file/{libro}', [BibliotecaController::class,"downloadFile"])->name('biblioteca.file.download');
 
     //biblioteca.file.delete
 
@@ -51,3 +50,5 @@ Route::get('clearcache', function () {
     Artisan::call('view:clear ');
     return "Cache is cleared";
 });
+
+Route::get('donwload/file/{libro}', [BibliotecaController::class,"downloadFile"])->name('biblioteca.file.download');
