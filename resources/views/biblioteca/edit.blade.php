@@ -44,23 +44,15 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Idioma</label>
-                                    <select class="form-control" name="idioma">
-                                        <option disabled selected>Seleccione el idioma</option>
-                                        <option {{ ($libro->idioma) == 'Español' ? 'selected' : '' }}>Español</option>
-                                        <option {{ ($libro->idioma) == 'Ingles' ? 'selected' : '' }}>Ingles</option>
-                                    </select>
+                                    <input type="text" class="form-control" placeholder="Idioma" name="idioma" value="{{$libro->idioma}}">
                                 </div>
                                 <div class="form-group">
                                     <label>Formato</label>
-                                    <select class="form-control" name="formato">
-                                        <option disabled selected>Seleccione el formato</option>
-                                        <option {{ ($libro->formato) == 'Digital' ? 'selected' : '' }}>Digital</option>
-                                        <option {{ ($libro->formato) == 'Fisico' ? 'selected' : '' }}>Fisico</option>
-                                    </select>
+                                    <input type="text" class="form-control" placeholder="Formato" name="formato" value="{{$libro->idioma}}">
                                 </div>
                                 <div class="form-group">
                                     <label>Cantidad de Ejemplares</label>
-                                    <input type="number" min="1" class="form-control" placeholder="Cantidad de Ejemplares" name="cant_ejemplares" value="{{$libro->cant_ejemplares}}">
+                                    <input type="number" min="0" class="form-control" placeholder="Cantidad de Ejemplares" name="cant_ejemplares" value="{{$libro->cant_ejemplares}}">
                                 </div>
                             </div>
                             <div class="col-md-12">

@@ -43,23 +43,15 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Idioma</label>
-                                    <select class="form-control" name="idioma">
-                                        <option disabled selected>Seleccione el idioma</option>
-                                        <option>Español</option>
-                                        <option>Ingles</option>
-                                    </select>
+                                    <input type="text" class="form-control" placeholder="Idioma" name="idioma">
                                 </div>
                                 <div class="form-group">
                                     <label>Formato</label>
-                                    <select class="form-control" name="formato">
-                                        <option disabled selected>Seleccione el formato</option>
-                                        <option>Digital</option>
-                                        <option>Fisico</option>
-                                    </select>
+                                    <input type="text" class="form-control" placeholder="Formato" name="formato">
                                 </div>
                                 <div class="form-group">
                                     <label>Cantidad de Ejemplares</label>
-                                    <input type="number" min="1" value="1" class="form-control" placeholder="Cantidad de Ejemplares" name="cant_ejemplares">
+                                    <input type="number" min="0" value="0" class="form-control" placeholder="Cantidad de Ejemplares" name="cant_ejemplares">
                                 </div>
                             </div>
                             <div class="col-md-12">
