@@ -102,7 +102,7 @@ class DatosController extends Controller
         $request->validate([
             'image' => 'required|image'
         ]);
-        if ($file = $request->hasFile('image')) {
+        if ($request->hasFile('image')) {
             $name = $request->file('image')->getClientOriginalName();
             $path = $request->file('image')->store('public/images');
 
