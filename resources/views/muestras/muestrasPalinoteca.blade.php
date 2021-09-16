@@ -22,6 +22,28 @@
         
         <div class="card">
             <div class="card-body">
+                <h4 class="card-title">Importar muestras desde Excel</h4>
+                <form id="myform" action="{{ route('coleccion.importar.palinoteca') }}" method="POST"
+                    enctype="multipart/form-data">
+                    @csrf
+                    <div class="input-group cust-file-button">
+                        <div class="custom-file">
+                            <input id="upload" type="file" class="custom-file-input" name="muestra" required>
+                            <label class="custom-file-label">Documento</label>
+                        </div>
+                        <div class="input-group-append">
+                            <button type="submit" class="btn  btn-primary" type="button">Importar Muestras</button>
+                        </div>
+                    </div>
+                    <small id="upload" class="form-text text-muted">Al momento de importar desde excel se debe de utilizar el mismo orden se visualiza en la tabla de abajo</small>
+                    <small id="upload" class="form-text text-muted">Se importaran todos los datos excepto la primera fila que son los titulos</small>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
                 <h4 class="header-title">Colección {{$tipo->nombre}}</h4>
                 <table id="datatable-buttons" class="table table-striped dt-responsive nowrap" width="100%">
                     <thead>
@@ -65,13 +87,13 @@
                             {{-- <th>Localización</th> --}}
                             {{-- <th>Sexo</th> --}}
                             {{-- <th>Edad</th> --}}
-                            <th>Notas</th>
                             <th>Agrupación</th>
                             <th>Tamaño grano v.p. μ</th>
                             <th>Tamaño grano v.e. μ</th>
                             <th>Forma</th>
                             <th>Apertura</th>
                             <th>Ornamentación</th>
+                            <th>Notas</th>
                             <th>Opciones</th>
 
                         </tr>
@@ -92,7 +114,7 @@
                             <td>{{$muestra->clase}}</td>
                             <td>{{$muestra->orden}}</td>
                             <td>{{$muestra->familia}}</td>
-                            <td>{{$muestra->tipo->subfamilia}}</td>
+                            <td>{{$muestra->subfamilia}}</td>
                             <td>{{$muestra->genero}}</td>
                             <td>{{$muestra->especie}}</td>
                             <td>{{$muestra->variedad}}</td>
@@ -118,13 +140,13 @@
                             {{-- <td>{{$muestra->localizacion}}</td> --}}
                             {{-- <td>{{$muestra->tipo->sexo}}</td> --}}
                             {{-- <td>{{$muestra->tipo->edad}}</td> --}}
-                            <td>{{$muestra->notas}}</td>
                             <td>{{$muestra->agrupacion}}</td>
                             <td>{{$muestra->tamanho_vp}}</td>
                             <td>{{$muestra->tamanho_ve}}</td>
                             <td>{{$muestra->forma}}</td>
                             <td>{{$muestra->apertura}}</td>
                             <td>{{$muestra->ornamentacion}}</td>
+                            <td>{{$muestra->notas}}</td>
                             <td>
 
                                 <p class="mt-1">
@@ -132,6 +154,13 @@
                                 </p>
                                 <p class="mt-1">
                                     <a href="{{route('coleccion.imagen',[$muestra])}}"><button type="button" class="btn btn-xs btn-primary">Ver Imagenes</button></a>
+                                </p>
+                                <p class="mt-1">
+                                    <form action="{{ route('coleccion.delete') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="id" value="{{ $muestra->id }}">
+                                        <button type="submit" class="btn btn-xs  btn-danger">Eliminar</button>
+                                    </form>
                                 </p>
 
                             </td>

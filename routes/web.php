@@ -24,6 +24,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('registrar', [DatosController::class,"store"])->name('coleccion.store');
     Route::get('editar/{muestra}', [DatosController::class,"edit"])->name('coleccion.edit');
     Route::post('actualizar', [DatosController::class,"update"])->name('coleccion.update');
+    Route::post('coleccion/delete', [DatosController::class,"delete"])->name('coleccion.delete');
 
     Route::get('biblioteca', [BibliotecaController::class,"index"])->name('biblioteca.index');
     Route::get('biblioteca/crear', [BibliotecaController::class,"create"])->name('biblioteca.create');
@@ -34,6 +35,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('biblioteca/imagen/upload/{libro}', [BibliotecaController::class,"uploadImg"])->name('biblioteca.imagen.upload');
     Route::post('biblioteca/file/upload/{libro}', [BibliotecaController::class,"uoloadFile"])->name('biblioteca.file.upload');
     Route::post('coleccion/file/delete', [BibliotecaController::class,"deleteFile"])->name('biblioteca.file.delete');
+    
 
     //biblioteca.file.delete
 
@@ -42,6 +44,13 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('coleccion/imagen/upload/{muestra}', [DatosController::class,"uploadImg"])->name('coleccion.imagen.upload');
     Route::post('coleccion/imagen/delete', [DatosController::class,"deleteImg"])->name('coleccion.imagen.delete');
     Route::get('coleccion/{tipo}', [DatosController::class,"coleccion"])->name('coleccion.tipo');
+
+    Route::post('coleccion/importar/carpoteca', [DatosController::class,"importarCarpoteca"])->name('coleccion.importar.carpoteca');
+    Route::post('coleccion/importar/entomologia', [DatosController::class,"importarEntomologia"])->name('coleccion.importar.entomologia');
+    Route::post('coleccion/importar/germoteca', [DatosController::class,"importarGermoteca"])->name('coleccion.importar.germoteca');
+    Route::post('coleccion/importar/herbario', [DatosController::class,"importarHerbario"])->name('coleccion.importar.herbario');
+    Route::post('coleccion/importar/palinoteca', [DatosController::class,"importarPalinoteca"])->name('coleccion.importar.palinoteca');
+    Route::post('coleccion/importar/xiloteca', [DatosController::class,"importarXiloteca"])->name('coleccion.importar.xiloteca');
 });
 Route::get('clearcache', function () {
     Artisan::call('cache:clear');

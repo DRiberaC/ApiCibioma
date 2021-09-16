@@ -2,6 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Imports\CarpotecaImport;
+use App\Imports\EntomologiaImport;
+use App\Imports\GermotecaImport;
+use App\Imports\HerbarioImport;
+use App\Imports\PalinotecaImport;
+use App\Imports\XilotecaImport;
+use Maatwebsite\Excel\Facades\Excel;
 use App\Models\Image;
 use App\Models\Muestra;
 use App\Models\Tipo;
@@ -90,6 +97,12 @@ class DatosController extends Controller
         return redirect()->route('home.index');
     }
 
+    public function delete(Request $request)
+    {
+        Muestra::find($request->id)->delete();
+        return redirect()->back();
+    }
+
     public function imagen(Muestra $muestra)
     {
         $tipos=Tipo::all();
@@ -165,5 +178,53 @@ class DatosController extends Controller
                 break;
         }
         //return view('muestras.muestras', compact('tipos', 'tipo', 'muestras'));
+    }
+
+    public function importarCarpoteca(Request $request)
+    {
+        //Excel::import(new CarpotecaImport, 'users.xlsx');
+        Excel::import(new CarpotecaImport, request()->file('muestra'));
+        
+        return redirect()->back();
+    }
+
+    public function importarEntomologia(Request $request)
+    {
+        //Excel::import(new CarpotecaImport, 'users.xlsx');
+        Excel::import(new EntomologiaImport, request()->file('muestra'));
+        
+        return redirect()->back();
+    }
+
+    public function importarGermoteca(Request $request)
+    {
+        //Excel::import(new CarpotecaImport, 'users.xlsx');
+        Excel::import(new GermotecaImport, request()->file('muestra'));
+        
+        return redirect()->back();
+    }
+
+    public function importarHerbario(Request $request)
+    {
+        //Excel::import(new CarpotecaImport, 'users.xlsx');
+        Excel::import(new HerbarioImport, request()->file('muestra'));
+        
+        return redirect()->back();
+    }
+
+    public function importarPalinoteca(Request $request)
+    {
+        //Excel::import(new CarpotecaImport, 'users.xlsx');
+        Excel::import(new PalinotecaImport, request()->file('muestra'));
+        
+        return redirect()->back();
+    }
+
+    public function importarXiloteca(Request $request)
+    {
+        //Excel::import(new CarpotecaImport, 'users.xlsx');
+        Excel::import(new XilotecaImport, request()->file('muestra'));
+        
+        return redirect()->back();
     }
 }
