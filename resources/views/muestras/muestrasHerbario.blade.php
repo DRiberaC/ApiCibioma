@@ -97,7 +97,7 @@
                             <td>{{$muestra->especie}}</td>
                             <td>{{$muestra->variedad}}</td>
                             {{-- <td>{{$muestra->epiteto_especifico}}</td> --}}
-                            <td>{{$muestra->nombre_cientifico}}</td>
+                            <td><em>{{$muestra->nombre_cientifico}}</em></td>
                             <td>{{$muestra->nombre_completo}}</td>
                             <td>{{$muestra->nombre_comun}}</td>
                             <td>{{$muestra->lugar_colecta}}</td>
