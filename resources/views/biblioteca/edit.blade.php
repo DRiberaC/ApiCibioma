@@ -57,6 +57,7 @@
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="btn  btn-primary">Actualizar libro</button>
+                                <a href="{{ url()->previous() }}"><button class="btn btn-danger float-right">Cancelar</button></a>
                             </div>
                         </div>
                     </div>
