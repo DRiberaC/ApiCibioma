@@ -34,7 +34,7 @@ class CreateMuestrasTable extends Migration
             $table->string('epiteto_especifico')->nullable();
             $table->string('especie')->nullable();
             $table->string('variedad')->nullable();
-            $table->string('nombre_cientifico')->nullable();
+            $table->string('nombre_cientifico')->unique()->nullable();
             $table->string('nombre_completo')->nullable();
             $table->string('nombre_comun')->nullable();
             $table->string('lugar_colecta')->nullable();
