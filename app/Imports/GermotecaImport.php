@@ -6,13 +6,27 @@ use App\Models\Muestra;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithStartRow;
 
-class GermotecaImport implements ToModel, WithStartRow
+use Maatwebsite\Excel\Concerns\SkipsErrors;
+use Maatwebsite\Excel\Validators\Failure;
+use Maatwebsite\Excel\Concerns\SkipsOnFailure;
+use Maatwebsite\Excel\Concerns\SkipsFailures;
+
+class GermotecaImport implements ToModel, WithStartRow, WithValidation, SkipsOnFailure
 {
-    /**
-    * @param array $row
-    *
-    * @return \Illuminate\Database\Eloquent\Model|null
-    */
+    use Importable,SkipsErrors,SkipsFailures;
+
+    public function rules(): array
+    {
+        return [
+            '11' => 'unique:muestras,nombre_cientifico',
+        ];
+    }
+
+    public function onFailure(Failure ...$failures)
+    {
+        // Handle the failures how you'd like.
+    }
+    
     public function model(array $row)
     {
         return new Muestra([
